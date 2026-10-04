@@ -158,3 +158,89 @@ nav {
         0 0 6px var(--primary)
     );
 }
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    width: 100%;
+
+    background-color: var(--bg-secondary);
+
+    border-top: 1px solid var(--border);
+}
+
+.footer-content {
+    width: 100%;
+    min-height: 110px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 20px 40px;
+}
+
+
+/* =========================
+   FOOTER LOGO
+========================= */
+
+.footer-logo {
+    width: 220px;
+    height: 55px;
+
+    object-fit: contain;
+}
+
+
+/* =========================
+   FOOTER SOCIALS
+========================= */
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+
+    gap: 22px;
+
+    margin-left: auto;
+}
+
+.footer-socials a {
+    display: flex;
+    align-items: center;
+}
+
+.footer-socials .social-icon {
+    width: 30px;
+    height: 30px;
+
+    object-fit: contain;
+
+    transition:
+        transform 0.3s ease,
+        filter 0.3s ease;
+}
+
+.footer-socials .social-icon:hover {
+    transform: translateY(-2px);
+
+    filter: drop-shadow(
+        0 0 6px var(--primary)
+    );
+}
+
+
+/* =========================
+   FOOTER DESCRIPTION
+========================= */
+
+.footer-description {
+    margin-left: 35px;
+
+    color: var(--text-secondary);
+
+    font-size: 14px;
+    white-space: nowrap;
+}
